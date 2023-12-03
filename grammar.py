@@ -8,9 +8,10 @@ class Grammar:
 
     parts_spliter = "->"
 
-    def __init__(self, terminals: list[str]=[],
-                 non_terminals: list[str]=[],
-                 start_non_terminal: str="",
+    def __init__(self,
+                 terminals=[],
+                 non_terminals=[],
+                 start_non_terminal: str = "",
                  rules=None,
                  parts_spliter="->",):
         self.terminals = terminals
