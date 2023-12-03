@@ -5,7 +5,7 @@ from grammar import Grammar
 DIRECTORY_PATH_PREFIX = "./test_grammars/"
 NUMBER_OF_BAD_GRAMMARS = 3
 PREFIX_OF_BAD_GRAMMAR = DIRECTORY_PATH_PREFIX + "test_bad_grammar_"
-NUMBER_OF_GOOD_GRAMMARS = 3
+NUMBER_OF_GOOD_GRAMMARS = 4
 PREFIX_OF_GOOD_GRAMMAR = DIRECTORY_PATH_PREFIX + "test_good_grammar_"
 ANSWERS = {True: "Yes", False: "No"}
 
