@@ -1,0 +1,15 @@
+4 3 8
+STUV
+abc
+S->T
+S->cSa
+T->U
+T->cTc
+U->Vb
+U->aU
+V->bVc
+V->a
+S
+2
+bbbaccca-No
+bbbacccb-Yes
