@@ -8,9 +8,8 @@ if __name__ == '__main__':
     grammar = Grammar(terminals,
                       non_terminals,)
     for i in range(rules_num):
-        while True:
-            rule = input().replace(" ", "")
-            grammar.add_rule(rule)
+        rule = input().replace(" ", "")
+        grammar.add_rule(rule)
     erli_parser = ErliParser()
     start_non_terminal = input()
     grammar.set_start_non_terminal(start_non_terminal)
